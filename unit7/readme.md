@@ -1,0 +1,13 @@
+## 内容
+
+​		适配器模式：背景如下：现在有我们有一群鸭子，同时有一群火鸡，我们希望能把火鸡装扮一下，在外界看来就像是鸭子一样。即真实情况就是有一群很老的接口，然后我们希望能让这些很老的接口能跟我们最新的接口一样，而不改变老的接口的逻辑，显然用一个适配器包装一下就好。所以适配器模式就是改变的接口。
+
+​		适配器有两类：
+
+  1. 对象适配器：即有两个接口Duck和Turkey，然后我们要把火鸡包装成鸭子，引入一个TurkeyAdapter类来实现这两个接口，然后这个类中有一个Turkey对象。
+
+     ![image-20200227200804857](C:\Users\haimiao\AppData\Roaming\Typora\typora-user-images\image-20200227200804857.png)
+
+2. 类适配器：这个java实现不了，因为不能有多重继承。我们让TurkeyAdapter分别继承Duck和Turkey，然后这样就可以减少对象适配器的组合那一步了。
+
+   ![image-20200227201651896](C:\Users\haimiao\AppData\Roaming\Typora\typora-user-images\image-20200227201651896.png)
