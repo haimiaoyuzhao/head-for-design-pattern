@@ -23,13 +23,13 @@
 
 补充：工厂模式只是将new的过程给封装了，如果是烘培、切块、包装等有了很多种，可以将这些步骤封装，当然比较好的模式是用策略模式了。
 
-![image-20200222170121331](C:\Users\haimiao\AppData\Roaming\Typora\typora-user-images\image-20200222170121331.png)
+![image-20200222170121331](./img/image-20200222170121331.png)
 
 ​	
 
 ​	接下来将问题简化一些，如果我们的加盟店在new pizza过程中只有原料是不同的，而bake、cut、box以及加原料的顺序都是一样的，这样我们可以建一个原料工厂，然后不同加盟店采用不同地区的原料，这样我们可以用一个接口来代码原料工厂，这就是抽象工厂。显然这样一来我们的pizza种类与上面比就减少了很多。
 
-![image-20200222171013067](C:\Users\haimiao\AppData\Roaming\Typora\typora-user-images\image-20200222171013067.png)
+![image-20200222171013067](./img/image-20200222171013067.png)
 
 **依赖倒置原则：**
 

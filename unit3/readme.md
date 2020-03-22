@@ -4,5 +4,5 @@
 
 ## 类图
 
-![image-20200218161856605](C:\Users\haimiao\AppData\Roaming\Typora\typora-user-images\image-20200218161856605.png)
+![image-20200218161856605](./img/image-20200218161856605.png)
 

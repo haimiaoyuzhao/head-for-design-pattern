@@ -12,4 +12,4 @@
 
 
 
-<img src="C:\Users\haimiao\AppData\Roaming\Typora\typora-user-images\image-20200228202611607.png" alt="image-20200228202611607" style="zoom:50%;" />
+<img src="./img/image-20200228202611607.png" alt="image-20200228202611607" style="zoom:50%;" />

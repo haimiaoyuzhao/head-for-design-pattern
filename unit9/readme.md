@@ -8,7 +8,7 @@
 
 ## 类图
 
-![SharedScreenshot](C:\Users\haimiao\Desktop\SharedScreenshot.jpg)
+![SharedScreenshot](./img/SharedScreenshot.jpg)
 
 
 
@@ -24,4 +24,4 @@
 
 ## 类图
 
-<img src="C:\Users\haimiao\Desktop\SharedScreenshot.jpg" alt="SharedScreenshot" style="zoom:80%;" />
+<img src="./img/SharedScreenshot2.jpg" alt="SharedScreenshot" style="zoom:80%;" />
