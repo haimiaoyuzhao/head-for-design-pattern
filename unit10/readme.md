@@ -8,4 +8,4 @@
 
 ## 类图
 
-![SharedScreenshot](C:\zht\head-for-design-pattern\unit10\img\SharedScreenshot.jpg)
+![SharedScreenshot](./img/SharedScreenshot.jpg)
