@@ -10,7 +10,7 @@
 
 ## 类图
 
-![image-20200319150853109](C:\Users\haimiao\AppData\Roaming\Typora\typora-user-images\image-20200319150853109.png)
+![image-20200319150853109](./img/image-20200319150853109.png)
 
 
 
@@ -24,7 +24,7 @@
 
 ​	在这里采用了java自带的代理，这个代理是一个动态代理，动态代理的含义是代理类并不是实现创建好的，而是在运行过程中你给定相应的方法来创建的。因而代理是java写好的，那么我们需要去实现另一个接口InvocationHandler来响应代理的调用，也就是在这里判断哪些方法可以调用，哪些方法不能调用。
 
-​	![image-20200319162728998](C:\Users\haimiao\AppData\Roaming\Typora\typora-user-images\image-20200319162728998.png)
+​	![image-20200319162728998](./img/image-20200319162728998.png)
 
 ​	动态代理是这样创建的。
 
@@ -32,4 +32,4 @@
 
 ##类图
 
-![image-20200319155444276](C:\Users\haimiao\AppData\Roaming\Typora\typora-user-images\image-20200319155444276.png)
+![image-20200319155444276](./img/image-20200319155444276.png)
